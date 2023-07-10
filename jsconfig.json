@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["App/Components/*"],
+      "configs/*": ["App/Configs/*"],
+      "containers/*": ["App/Containers/*"],
+      "images/*": ["App/Images/*"],
+      "utils/*": ["App/Utils/*"],
+      "actions/*": ["App/Redux/Actions/*"]
+    }
+  }
+}
